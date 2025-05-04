@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo"> <a href="index.html">
+                        <img src="https://www.ifms.edu.br/imagens/icones-agenda/ifms.png/@@images/bb040475-9b84-45ed-b655-10faed8e4ec8.png"
+                            alt="" style="width: 80px;"></a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">☰</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="loginUSER.html">Painel de Usuário</a></li>
+                    <li><a href="loginADM.html">Painel de Administrador</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <script>
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+
+            mobileMenu.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        </script>
+    </header>
+
+
+    <!-- Formulário de Login -->
+    <div class="card-login">
+        <div class="login-container">
+            <div class="login-header">
+                <h2>Bem-vindo de volta</h2>
+            </div>
+            <div class="login-form">
+                <form>
+                    <div class="form-group">
+                        <h2>E-mail</h2>
+                        <input placeholder="Seu endereço de e-mail">
+                    </div>
+                    <div class="form-group">
+                        <h2>Senha</h2>
+                        <input placeholder="Sua senha">
+                    </div>
+
+                    <button class="login-button"><a href="painel_.html">Entrar</a></button>
+                    <div class="signup-link">
+                        Ainda não tem uma conta? <a href="#">Cadastre-se</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

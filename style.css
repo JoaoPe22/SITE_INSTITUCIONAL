@@ -390,6 +390,11 @@ footer {
     background-color: #3bac15;
 }
 
+.login-button a{
+    color: white;
+    text-decoration: none;
+}
+
 .signup-link {
     text-align: center;
     margin-top: 20px;
