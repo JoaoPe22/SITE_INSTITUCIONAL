@@ -390,7 +390,7 @@ footer {
     background-color: #3bac15;
 }
 
-.login-button a{
+.login-button a {
     color: white;
     text-decoration: none;
 }
@@ -422,11 +422,12 @@ footer {
         padding: 20px 15px;
     }
 }
+
 /* LOGIN - FINAL*/
 
 /* PAINEL USUÁRIO - INICIO */
-main {
-    padding:  40px 170px;
+.main {
+    padding: 40px 170px;
 }
 
 .panel-section {
@@ -490,3 +491,97 @@ main {
     }
 
 }
+
+/* PAINEL USUARIO - FINAL */
+
+
+/* PAINEL ADMINISTRADOR - INICIO */
+.departamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.departamento button{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    background: #017b16;
+    color: white;
+    border: solid 0;
+    font-weight: bolder;
+    font-size: 15PX;
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 0 160px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #2c3e50;
+}
+
+.data-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.data-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #3498db;
+}
+
+.data-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.data-label {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.departments {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.department-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.department-title {
+    margin-bottom: 10px;
+    color: #3498db;
+    font-size: 18px;
+}
+
+.department-info {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.department-info span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* PAINEL ADMINISTRADOR - FINAL */
