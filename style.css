@@ -79,6 +79,98 @@
 
 /* NAVBAR - FINAL*/
 
+/* Rodapé - INICIO */
+footer {
+    background-color: #494848;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: #ffffff;
+}
+
+.footer-column p,
+.footer-column address {
+    margin-bottom: 15px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Rodapé - FINAL/
 
 /* PAGINA PRINCIPAL HOME - INICIO*/
 .banner {
