@@ -9,23 +9,23 @@
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
         <nav class="navbar">
             <div class="navbar-container">
-                <div class="logo">
-                    <img src="https://www.ifms.edu.br/imagens/icones-agenda/ifms.png/@@images/bb040475-9b84-45ed-b655-10faed8e4ec8.png"
-                        alt="" style="width: 80px;">
+                <div class="logo"> <a href="index.html">
+                        <img src="https://www.ifms.edu.br/imagens/icones-agenda/ifms.png/@@images/bb040475-9b84-45ed-b655-10faed8e4ec8.png"
+                            alt="" style="width: 80px;"></a>
                 </div>
                 <div class="menu-toggle" id="mobile-menu">☰</div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
                     <li><a href="#">Painel de Usuário</a></li>
                     <li><a href="#">Painel de Administrador</a></li>
                 </ul>
             </div>
         </nav>
-
 
         <script>
             const mobileMenu = document.getElementById('mobile-menu');
@@ -36,6 +36,135 @@
             });
         </script>
     </header>
+
+
+    <!-- Página -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Excelência em Educação Superior</h1>
+            <p>Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul</p>
+        </div>
+    </section>
+
+    <!-- Seção de Cursos -->
+    <section class="cursos-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Cursos</h2>
+                <p>Conheça nossa ampla variedade de cursos de alta qualidade</p>
+            </div>
+
+            <div class="cursos">
+                <!-- Curso 1 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>📚</i>
+                        <div class="curso-tipo">Graduação</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Engenharia de Software</h3>
+                        <p class="curso-descricao">Forme-se um profissional capaz de projetar e desenvolver sistemas
+                            complexos de software.</p>
+                        <div class="curso-preco">R$ 899,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>🔬</i>
+                        <div class="curso-tipo">Pós-Graduação</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Inteligência Artificial</h3>
+                        <p class="curso-descricao">Especialize-se em IA e aprenda a desenvolver soluções avançadas com
+                            machine learning.</p>
+                        <div class="curso-preco">R$ 1.199,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>⚖️</i>
+                        <div class="curso-tipo">Graduação</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Direito</h3>
+                        <p class="curso-descricao">Desenvolva conhecimentos jurídicos sólidos para atuar em diversas
+                            áreas do Direito.</p>
+                        <div class="curso-preco">R$ 949,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <!-- Curso 4 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>💼</i>
+                        <div class="curso-tipo">Mestrado</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Administração de Empresas</h3>
+                        <p class="curso-descricao">Aprofunde seus conhecimentos em gestão e estratégia empresarial.</p>
+                        <div class="curso-preco">R$ 1.499,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <!-- Curso 5 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>🏥</i>
+                        <div class="curso-tipo">Especialização</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Psicologia Clínica</h3>
+                        <p class="curso-descricao">Especialize-se em técnicas modernas de terapia e abordagens
+                            psicológicas.</p>
+                        <div class="curso-preco">R$ 1.099,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <!-- Curso 6 -->
+                <div class="curso-card">
+                    <div class="curso-imagem">
+                        <i>🌎</i>
+                        <div class="curso-tipo">Graduação</div>
+                    </div>
+                    <div class="curso-info">
+                        <h3>Relações Internacionais</h3>
+                        <p class="curso-descricao">Estude as complexas relações entre países e organizações
+                            internacionais.</p>
+                        <div class="curso-preco">R$ 879,00 <span>/mês</span></div>
+                        <a href="#" class="curso-button">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Vídeo Institucional -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conheça Nossa Instituição</h2>
+                <p>Assista ao nosso vídeo institucional e descubra por que somos referência em educação</p>
+            </div>
+
+            <div class="video-container">
+                <iframe width="800" height="450"
+                    src="https://www.youtube.com/embed/3pJf_QJtCxc?si=uAABad-2ea7ZK16Q&amp;start=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

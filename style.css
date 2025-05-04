@@ -1,10 +1,9 @@
-/* NAVBAR */
+/* NAVBAR - INICIO*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .navbar {
     background-color: #6ed040;
@@ -78,9 +77,159 @@
     }
 }
 
-/* NAVBAR */
+/* NAVBAR - FINAL*/
 
-/* LOGIN */
+
+/* PAGINA PRINCIPAL HOME - INICIO*/
+.banner {
+    background-image: linear-gradient(rgba(71, 184, 33, 0.6), rgba(59, 172, 21, 0.6));
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.banner-content p {
+    font-size: 28px;
+    max-width: 900px;
+    margin: 0 auto 25px;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #017b16;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.section-title p {
+    color: #0e0d0d;
+    font-size: 20px;
+}
+
+.cursos-section {
+    padding: 55px 0;
+}
+
+.cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.curso-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.curso-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.curso-imagem {
+    height: 180px;
+    background-color: #017b16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.curso-tipo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #47b821;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.curso-info {
+    padding: 25px;
+}
+
+.curso-info h3 {
+    margin-bottom: 2px;
+    color: #000000;
+}
+
+.curso-descricao {
+    color: #564d4d;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.curso-preco {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.curso-preco span {
+    font-size: 15px;
+    color: #564d4d;
+    font-weight: normal;
+}
+
+
+.curso-button {
+    display: block;
+    text-align: center;
+    background-color: #47b821;
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.curso-button:hover {
+    background-color: #017b16;
+}
+
+.video-section {
+    background-color: #f5f7fa;
+    padding: 10px 0;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* PAGINA PRINCIPAL HOME - FINAL*/
+
+/* LOGIN - INICIO*/
 .card-login {
     display: flex;
     justify-content: center;
@@ -139,7 +288,7 @@
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -166,7 +315,6 @@
     text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 480px) {
     .login-container {
         border-radius: 0;
@@ -178,4 +326,4 @@
     }
 }
 
-/* LOGIN */
+/* LOGIN - FINAL*/
